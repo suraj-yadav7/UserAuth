@@ -44,3 +44,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Homme page style */
+.navbar{
+  background-color: black;
+  color: white;
+}
+.navItem{
+  display: flex;
+  gap:1rem;
+  justify-content: center;
+  align-items: center;
+}
+.navItem>  a{
+  margin-top: 6px;
+  text-decoration: none;
+  /* list-style: none; */
+  color: white;
+  cursor: pointer;
+}
+
+.searchField{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 1rem;
+  }
+.searchField >input{
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+/* pagination sytling */
+.paginationContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}

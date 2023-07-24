@@ -1,22 +1,100 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },{
-      "id":2,
-      "title":"Suraj kumar"
-    }
-  ],
-  "comments": [
+      "username": "suraj",
+      "password": "kumar123",
+      "name": "suraj kumar",
+      "email": "suraj123@gmail.com",
+      "mobileNo": "789456199",
+      "address": "Hyderabad",
+      "gender": "male",
+      "status": "active",
+      "id": 8
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "naveen",
+      "password": "sjfsdf",
+      "name": "naveen kumar",
+      "email": "naveen@gmail.com",
+      "mobileNo": "789456199",
+      "address": "Bengaluru",
+      "gender": "male",
+      "status": "inactive",
+      "id": 9
+    },
+    {
+      "username": "suma",
+      "password": "suma@132",
+      "name": "chandrashekar",
+      "email": "sumalatha12@gmail.com",
+      "mobileNo": "98853443",
+      "address": "Vijaywada",
+      "status": "active",
+      "gender": "female",
+      "id": 10
+    },
+    {
+      "username": "Anil",
+      "password": "anil123",
+      "name": "Anil Kumar",
+      "email": "anil234@gmail.com",
+      "mobileNo": "789465138",
+      "address": "Pune",
+      "gender": "male",
+      "id": 11
+    },
+    {
+      "username": "sakshi",
+      "password": "sakshi123",
+      "name": "Sakshi Mishra",
+      "email": "sakshimish3@gmail.com",
+      "mobileNo": "984516698",
+      "status": "active",
+      "address": "Varanasi",
+      "gender": "female",
+      "id": 12
+    },
+    {
+      "username": "Sandeep",
+      "password": "sandeep123",
+      "name": "Sandeep Goud",
+      "email": "sandy45@gmail.com",
+      "mobileNo": "9845166217",
+      "address": "Bengaluru",
+      "gender": "male",
+      "id": 13
+    },
+    {
+      "username": "prashanth",
+      "password": "prashan34",
+      "name": "Singathi Prashanth",
+      "email": "singathiPras@gmail.com",
+      "mobileNo": "8956418984",
+      "status": "active",
+      "address": "Chennai",
+      "gender": "male",
+      "id": 14
+    },
+    {
+      "username": "Saitej",
+      "password": "saiTej12",
+      "name": "T Sai Teja",
+      "email": "saitej@gmail.com",
+      "mobileNo": "99562218984",
+      "address": "Pune",
+      "gender": "male",
+      "id": 15
+    },
+    {
+      "username": "Sthuthi",
+      "password": "sthuthi21",
+      "name": "Stuthi prasuna",
+      "email": "s.prasuna@gmail.com",
+      "mobileNo": "89562218984",
+      "status": "active",
+      "address": "Chennai",
+      "gender": "female",
+      "id": 16
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

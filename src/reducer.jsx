@@ -1,7 +1,7 @@
 const reducer = (state,action)=>{
     switch(action.type){
-        case "addUser": return{
-    
+        case "demo": return{
+
         };
     }
 }
