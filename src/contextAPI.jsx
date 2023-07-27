@@ -58,6 +58,7 @@ const isValidate = (userData)=>{
 }
 
 const handleSubmit = (e,userData)=>{
+    console.log("handle submit post method context run")
     e.preventDefault()
     let validationReult = isValidate(userData)
     if(validationReult){
@@ -66,7 +67,7 @@ const handleSubmit = (e,userData)=>{
       headers:{"content-type":"application/json"},
       body: JSON.stringify(userData)
     }).then((res)=>{
-      toast.success("Registration Successfull")
+      toast.success("Registration Successfully")
     }).catch((err)=>console.log("Error while posting user data in server",err))
 }
   }
@@ -110,9 +111,26 @@ const handleSubmit = (e,userData)=>{
     }
     }
     }
+    const removeUser =(userData,userId,fetchData)=>{
+        fetch(`http://localhost:3001/users/${userId}`,{
+            method:"DELETE",
+            headers:{
+                "content-type":"application-json"
+            },
+        }).then((response)=>{
+            if(response.status == 200){
+                toast.success("User is successfully deleted")
+                fetchData(0,4,0)
+                return response.json()
+            }
+            else{
+                toast.warning("user data doesn't match")
+            }
+        }).catch((err)=>console.log("Error occured while deleting user", err))
+    }
 
 return(
-    <AppContext.Provider value={{...state,addUser,handleSubmit,isValidate,handleLoginSmt}}>{children}</AppContext.Provider>
+    <AppContext.Provider value={{...state,addUser,handleSubmit,isValidate,handleLoginSmt,removeUser}}>{children}</AppContext.Provider>
     )
 }
 

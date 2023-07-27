@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "username": "suraj",
+      "username": "suraj32",
       "password": "kumar123",
       "name": "suraj kumar",
       "email": "suraj123@gmail.com",
@@ -12,47 +12,16 @@
       "id": 8
     },
     {
-      "username": "naveen",
-      "password": "sjfsdf",
-      "name": "naveen kumar",
-      "email": "naveen@gmail.com",
-      "mobileNo": "789456199",
-      "address": "Bengaluru",
-      "gender": "male",
-      "status": "inactive",
-      "id": 9
-    },
-    {
-      "username": "suma",
+      "username": "suma1",
       "password": "suma@132",
-      "name": "chandrashekar",
-      "email": "sumalatha12@gmail.com",
-      "mobileNo": "98853443",
-      "address": "Vijaywada",
+      "name": "suma latha",
+      "email": "sumalatha@gmail.com",
+      "mobileNo": "057988534",
+      "address": "washington dc",
       "status": "active",
       "gender": "female",
-      "id": 10
-    },
-    {
-      "username": "Anil",
-      "password": "anil123",
-      "name": "Anil Kumar",
-      "email": "anil234@gmail.com",
-      "mobileNo": "789465138",
-      "address": "Pune",
-      "gender": "male",
-      "id": 11
-    },
-    {
-      "username": "sakshi",
-      "password": "sakshi123",
-      "name": "Sakshi Mishra",
-      "email": "sakshimish3@gmail.com",
-      "mobileNo": "984516698",
-      "status": "active",
-      "address": "Varanasi",
-      "gender": "female",
-      "id": 12
+      "id": 10,
+      "country": "usa"
     },
     {
       "username": "Sandeep",
@@ -61,29 +30,9 @@
       "email": "sandy45@gmail.com",
       "mobileNo": "9845166217",
       "address": "Bengaluru",
+      "status": "inactive",
       "gender": "male",
       "id": 13
-    },
-    {
-      "username": "prashanth",
-      "password": "prashan34",
-      "name": "Singathi Prashanth",
-      "email": "singathiPras@gmail.com",
-      "mobileNo": "8956418984",
-      "status": "active",
-      "address": "Chennai",
-      "gender": "male",
-      "id": 14
-    },
-    {
-      "username": "Saitej",
-      "password": "saiTej12",
-      "name": "T Sai Teja",
-      "email": "saitej@gmail.com",
-      "mobileNo": "99562218984",
-      "address": "Pune",
-      "gender": "male",
-      "id": 15
     },
     {
       "username": "Sthuthi",
@@ -95,6 +44,50 @@
       "address": "Chennai",
       "gender": "female",
       "id": 16
+    },
+    {
+      "username": "trupa",
+      "password": "rupa123",
+      "name": "thamsittey rupa",
+      "email": "rupa@gmail.com",
+      "mobileNo": "9846436564",
+      "address": "chennai",
+      "gender": "female",
+      "id": 17
+    },
+    {
+      "username": "Akhil19",
+      "password": "akhil123",
+      "name": "akhil sai",
+      "email": "akhil@gmail.com",
+      "mobileNo": "9846561251",
+      "address": "Hyderabad",
+      "gender": "male",
+      "id": 19
+    },
+    {
+      "username": "shravani34",
+      "password": "shravani1234",
+      "name": "shravani reddy",
+      "email": "shrava@gmail.com",
+      "mobileNo": "3518974685",
+      "country": "usa",
+      "address": "Las vegas",
+      "status": "active",
+      "gender": "female",
+      "id": 20
+    },
+    {
+      "username": "kunal56",
+      "password": "kunal123",
+      "name": "kunal suryavanshi",
+      "email": "kunals@gmail.com",
+      "mobileNo": "396841651",
+      "address": "goa",
+      "status": "inactive",
+      "gender": "male",
+      "country": "india",
+      "id": 22
     }
   ]
 }
